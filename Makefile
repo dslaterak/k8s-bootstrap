@@ -17,7 +17,7 @@ install-argocd:
 	kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 	kubectl apply -f resources/application-bootstrap.yaml -n argocd
 
-install-grafana
+install-grafana:
 	helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 	helm repo update
 	helm install grafana prometheus-community/kube-prometheus-stack
