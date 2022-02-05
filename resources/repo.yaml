@@ -10,14 +10,9 @@ stringData:
   url: git@github.com:dslaterak/k8s-bootstrap.git
   sshPrivateKey: |
     -----BEGIN OPENSSH PRIVATE KEY-----
-<<<<<<< HEAD
     b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
     QyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3wAAAJjS1ZEP0tWR
     DwAAAAtzc2gtZWQyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3w
     AAAEBhpBL683axKEHcwDpUm5aKn30pf8Hc6tkqvq4gLxCjAf/bxKc8729r7eLw8aVcL8mE
     KxpkFee6CmviTonC1SHfAAAAEWRhbi5zbGF0ZXJAbWUuY29tAQIDBA==
     -----END OPENSSH PRIVATE KEY----- 
-=======
-    
-    -----END OPENSSH PRIVATE KEY-----
->>>>>>> b8cade3f93db4765ad180e889d4732b0ce0a7ef7
