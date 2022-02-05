@@ -6,8 +6,13 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: repository
 stringData:
-  url: git://git@github.com:dslaterak/k8s-bootstrap.git
+  type: git
+  url: git@github.com:dslaterak/k8s-bootstrap.git
   sshPrivateKey: |
     -----BEGIN OPENSSH PRIVATE KEY-----
-    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3wAAAJjS1ZEP0tWRDwAAAAtzc2gtZWQyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3wAAAEBhpBL683axKEHcwDpUm5aKn30pf8Hc6tkqvq4gLxCjAf/bxKc8729r7eLw8aVcL8mEKxpkFee6CmviTonC1SHfAAAAEWRhbi5zbGF0ZXJAbWUuY29tAQIDBA==
-    -----END OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3wAAAJjS1ZEP0tWR
+    DwAAAAtzc2gtZWQyNTUxOQAAACD/28SnPO9va+3i8PGlXC/JhCsaZBXnugpr4k6JwtUh3w
+    AAAEBhpBL683axKEHcwDpUm5aKn30pf8Hc6tkqvq4gLxCjAf/bxKc8729r7eLw8aVcL8mE
+    KxpkFee6CmviTonC1SHfAAAAEWRhbi5zbGF0ZXJAbWUuY29tAQIDBA==
+    -----END OPENSSH PRIVATE KEY----- 
