@@ -15,7 +15,7 @@ proxy-argocd-ui:
 install-argocd:
 	kubectl create ns argocd || true
 	kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-	kubectl apply -f resouces/repo.yaml -n argocd
+#	kubectl apply -f resouces/repo.yaml -n argocd
 	kubectl apply -f resources/application-bootstrap.yaml -n argocd
 
 install-grafana:
