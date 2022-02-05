@@ -15,6 +15,7 @@ proxy-argocd-ui:
 install-argocd:
 	kubectl create ns argocd || true
 	kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+	argocd repo add git@github.com:dslaterak/k8s-bootstrap.git --ssh-private-key-path ~/.ssh/id_ed25519
 	kubectl apply -f resources/application-bootstrap.yaml -n argocd
 
 install-grafana:
